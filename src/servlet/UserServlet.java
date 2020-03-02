@@ -29,7 +29,7 @@ public class UserServlet extends HttpServlet {
 		//
 		String name = req.getParameter("name");
 		int age = Integer.parseInt(req.getParameter("age"));
-		user.setName(name);
+		user.setName("张三");
 		//调用实体类中的setter方法为私有的属性赋值
 		user.setAge(age);
 		us.save(user);

@@ -18,4 +18,10 @@ public class UserDaoImpl implements UserDao {
 		}
 	}
 
+	@Override
+	public void update(User user) {
+		// TODO Auto-generated method stub
+		System.out.println("Ö´ÐÐÐÞ¸Ä²Ù×÷");
+	}
+
 }
